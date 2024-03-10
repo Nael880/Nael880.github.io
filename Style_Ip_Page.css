@@ -1,0 +1,48 @@
+
+ /**/ 
+ * {
+  box-sizing: border-box;
+
+}
+body {
+  background-color: #003572;
+}
+@font-face {
+  font-family: CaviarBold;
+  src: url(fonts/CaviarDreams_Bold.ttf);
+}
+@font-face {
+  font-family: Caviar;
+  src: url(fonts/CaviarDreams.ttf);
+}
+@font-face {
+  font-family: CaviarItalic;
+  src: url(fonts/CaviarDreams_Italic.ttf);
+}
+@font-face {
+  font-family: CaviarBoldItalic;
+  src: url(fonts/CaviarDreams_BoldItalic.ttf);
+}
+@font-face {
+  font-family: BoldFont;
+  src: url(fonts/theboldfont.ttf);
+}
+@font-face {
+  font-family: "Mt-Medium";
+  src: url(Montserrat-Medium.ttf);
+}
+@font-face {
+font-family: "Mt-Bold";
+src: url(Montserrat-Bold.ttf);
+}
+@font-face {
+font-family: "Mt-Light";
+src: url(/Montserrat-Light.ttf);
+}
+.BoiteIP{
+  background-color:#3999d1;
+  margin:auto;
+  border: 4px solid rgb(0, 89, 172);
+  width: 400px;
+  height: 200px;
+} 

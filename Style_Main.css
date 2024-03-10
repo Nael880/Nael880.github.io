@@ -1,0 +1,220 @@
+/* Police et taille de texte par défaut */
+html,body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Gestion du débordement horizontal pour le document HTML */
+html {
+  overflow-x: hidden;
+}
+
+/* Tailles de police pour les titres */
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+
+/* Classes de polices alternatives */
+.na-serif {
+  font-family: serif;
+}
+.na-sans-serif {
+  font-family: sans-serif;
+}
+.na-cursive {
+  font-family: cursive;
+}
+.na-monospace {
+  font-family: monospace;
+}
+
+/* Styles pour les titres */
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+/* Espacement entre les lettres pour les éléments avec la classe "large" */
+.large {
+  letter-spacing: 4px;
+}
+
+/* Style pour les lignes horizontales */
+hr {
+  border: 0;
+  border-top: 1px solid rgb(255, 255, 255);
+  margin: 20px 0;
+}
+
+/* Centrage horizontal pour les éléments avec les classes "contenu" et "na-auto" */
+.contenu, .na-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Largeur maximale pour les éléments avec les classes "contenu" et "na-auto" */
+.contenu {
+  max-width: 980px;
+}
+.na-auto {
+  max-width: 1140px;
+}
+
+/* Classe pour masquer les éléments avec une petite taille */
+.espacepetit {
+  display: none!important;
+}
+
+/* Style pour les éléments positionnés en haut de la page */
+.top {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+.na-bottom {
+  bottom: 0;
+}
+
+/* Styles pour les boîtes et panneaux */
+.boite, .na-panel {
+  padding: 0.01em 16px;
+}
+.na-panel {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* Opacité des éléments */
+.opaque {
+  opacity: 0.60;
+}
+.opaque-off, .hoverpasopaque:hover {
+  opacity: 1;
+}
+.opaque-max {
+  opacity: 0.25;
+}
+.opaque-min {
+  opacity: 0.75;
+}
+
+/* Tailles de police supplémentaires */
+.xlarge {
+  font-size: 24px!important;
+}
+.extralarge {
+  font-size: 36px!important;
+}
+.na-xxxlarge {
+  font-size: 48px!important;
+}
+
+/* Espacement pour différents éléments */
+.espace32 {
+  padding-top: 32px!important;
+  padding-bottom: 32px!important;
+}
+.na-padding-48 {
+  padding-top: 48px!important;
+  padding-bottom: 48px!important;
+}
+.Espace64 {
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+}
+.paddingtop64 {
+  padding-top: 64px!important;
+}
+.na-padding-top-48 {
+  padding-top: 48px!important;
+}
+
+/* Styles de couleur */
+.blanc {
+  border: 1px solid black;
+  border-radius: 20px;
+  color: #000!important;
+  background-color: #fff!important;
+}
+.noir {
+  background-color: rgb(0, 16, 45)!important;
+}
+.grisnoir {
+  border: 1px solid black;
+  border-radius: 20px;
+  color: #fff!important;
+  background-color: rgb(0, 81, 255)!important;
+}
+.TexteBlanc {
+  color: #fff!important;
+}
+.TexteNoir {
+  color: #000!important;
+}
+.TexteGris {
+  color: #ffffff!important;
+}
+.TexteGrisClair {
+  color: #f1f1f1!important;
+}
+
+/* Centre les éléments horizontalement */
+.aucentre {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style pour une grande boîte */
+.na-bigbox {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #3274d6;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+  transition: background-color 0.2s;
+}
+
+/* Animation pour les nombres */
+@keyframes animnumbers {
+  0% {
+    background: #6f00ff;
+  }
+  25% {
+    background: #2c64ff;
+  }
+  50% {
+    background: #6f00ff;
+  }
+  75% {
+    background: #2c64ff;
+  }
+  100% {
+    background: #6f00ff;
+  }
+}
+
+/* Styles pour les boîtes de logs */
+.logsbox {
+  margin: auto;
+}
