@@ -231,8 +231,8 @@
   border: 1px solid lightgray;
   background-color: #151515;
   font-family: "Boldy";
-  width: 350px;
-  height: 200px;
+  width: 300px;
+  height: 220px;
   position: relative;
   margin-top: 5%;
   color: white;
@@ -275,7 +275,15 @@
   text-align: right; /* Alignement du texte à droite */
 }
 
-
+.termine{
+  color : #117e00;
+}
+.encours{
+  color : #b7761e;
+}
+.annule{
+  color : #80391e;
+}
 #type {
   display: flex;
   justify-content: space-around;
