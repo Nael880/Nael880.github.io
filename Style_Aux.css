@@ -232,7 +232,7 @@
   background-color: #151515;
   font-family: "Boldy";
   width: 300px;
-  height: 250px;
+  height: 200px;
   position: relative;
   margin-top: 5%;
   color: white;
@@ -248,9 +248,12 @@
 }
 
 .projetblock img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Redimensionne l'image pour remplir le conteneur en conservant son ratio d'aspect */
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  display: block; /* Pour que les marges auto fonctionnent */
+  margin: auto; /* Centre l'image horizontalement */
+  
 }
 
 .text-container {
