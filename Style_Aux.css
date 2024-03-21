@@ -158,7 +158,7 @@
   font-size:64px!important;
   text-align: center;
   font-family: "Regular";
-
+  margin: auto;
 }
 .TitreVar2{
   font-size:40px!important;
@@ -168,7 +168,7 @@
 .SecTitre{
   font-size:20px!important;
   font-family: "Boldy";
-
+  margin: auto;
 }
 .Header{
   margin:auto;
